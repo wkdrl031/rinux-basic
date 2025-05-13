@@ -18,18 +18,18 @@
 - cd -
 
 # 파일 및 폴더 생성/삭제
-- mkdir testdir
-- cd testdir
-- touch test.txt   
-- echo "Hello Linux!" > hello.txt
-- cat hello.txt
-- cd ..
-- rm -r testdir
+- **mkdir** testdir
+- **cd** testdir
+- **touch** test.txt   
+- **echo** "Hello Linux!" > hello.txt
+- **cat** hello.txt
+- **cd** ..
+- **rm** -r testdir
 
 ### cat,echo touch는 파일 내용을 다루는 기본 내용으로 자주 사용될듯    
 
 # 파일 복사/이동/이름 변경
-- mkdir folder1 folder2
-- touch folder1/file.txt
-- cp folder1/file.txt folder2/
-- mv folder2/file.txt folder2/file_renamed.txt
+- **mkdir** folder1 folder2
+- **touch** folder1/file.txt
+- **cp** folder1/file.txt folder2/
+- **mv** folder2/file.txt folder2/file_renamed.txt
